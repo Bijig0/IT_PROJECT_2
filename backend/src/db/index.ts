@@ -2,6 +2,8 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";
 
+console.log("📍 Loading database configuration...");
+
 const DATABASE_URL =
   "postgresql://postgres:m6rIe9pz2fwQDVBw@db.lfedmwfgftpkknllchxr.supabase.co:5432/postgres";
 
