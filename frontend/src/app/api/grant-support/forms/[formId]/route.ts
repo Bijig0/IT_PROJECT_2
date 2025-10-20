@@ -1,4 +1,3 @@
-// @ts-ignore
 import { sqlClient } from "@backend";
 import { NextResponse } from "next/server";
 import { z } from "zod";
