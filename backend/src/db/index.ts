@@ -5,7 +5,7 @@ import * as schema from "./schema";
 console.log("📍 Loading database configuration...");
 
 const DATABASE_URL =
-  "postgresql://postgres:m6rIe9pz2fwQDVBw@db.lfedmwfgftpkknllchxr.supabase.co:5432/postgres";
+  "postgresql://postgres.lfedmwfgftpkknllchxr:m6rIe9pz2fwQDVBw@aws-1-ap-southeast-2.pooler.supabase.com:6543/postgres";
 
 const connectionString =
   DATABASE_URL ?? "postgres://postgres:postgres@localhost:5432/postgres";
