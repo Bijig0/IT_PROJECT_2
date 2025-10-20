@@ -46,6 +46,8 @@ export async function GET(
     console.log("🔍 Step 3: Executing database query");
     console.log("📝 Query:", `SELECT * FROM form WHERE id = ${formId}`);
 
+    console.log(`DATABASE_URL is ${process.env.DATABASE_URL}`);
+
     const queryStartTime = Date.now();
     const rows = await sqlClient.unsafe<FormRow[]>(
       `
